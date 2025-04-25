@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: brown;
+    height: 100vh;
+    
+}
+
+.recipie{
+    display: none;
+    position: fixed;
+    top: 30vh;
+    bottom: 40vh;
+    left:40vw;
+    right:50vw;
+    background-color: yellow;
+    width: 25vw;
+    height: 45vh;
+    
+}
+.ehh{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.closebutton{
+    position: absolute;
+    left: 0;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-style: none;
+    border-radius: 50%;
+}
+.navbar_box{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    height: 10vh;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar_box p{
+    font-size: 27px;
+    letter-spacing: 5px;
+    
+}
+
+.inputbar{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 2px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.searchbox{
+    border-style: none;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.searchbutton{
+    height: 5vh;
+    background-color: green;
+    border-style: none;
+    border-radius: 3px;
+    width: 90px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 7px;
+    row-gap: 20px;
+
+}
+
+
+.mealcard{
+    background-color: white;
+    height: 45vh;
+    width: 20vw;
+}
+
+.mealcard img{
+    width: 20vw;
+    height: 34vh;
+}
+
+@media (max-width:412px){
+   .mealcard img{
+    height: 19vh;
+    width: 50vw;
+   }
+
+   .main-section{
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+   }
+
+   .mealcard{
+    width: 50vw;
+    height: 31vh;
+   }
+
+   .recipie{
+    width: 50vw;
+    left: 30vw;
+   }
+
+   .navbar_box{
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .inputbar{
+    width: 50vw;
+   }
+}
