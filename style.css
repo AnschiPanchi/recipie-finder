@@ -9,18 +9,17 @@ body{
     height: 100vh;
     
 }
-
 .recipie{
     display: none;
     position: fixed;
-    top: 30vh;
+    top: 20vh;
     bottom: 40vh;
-    left:40vw;
-    right:50vw;
+    left: 36vw;
+    right: 50vw;
     background-color: yellow;
-    width: 25vw;
-    height: 45vh;
-    
+    width: 30vw;
+    height: 56vh;
+    overflow-y: scroll;
 }
 
 .recipieview{
