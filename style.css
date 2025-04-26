@@ -112,7 +112,7 @@ body{
     margin-top:10px;
 }
 
-@media (max-width:900px){
+ @media  screen and (max-width:412px){
    .mealcard img{
     height: 19vh;
     width: 50vw;
