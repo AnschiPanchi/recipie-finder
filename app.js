@@ -27,7 +27,7 @@ const apifetch= async (food)=>{
         recipiediv.appendChild(mealcard);
         const recipieview= document.createElement('button');
         recipieview.classList.add('recipieview');
-        recipieview.innerHTML='View Recipie';
+        recipieview.innerHTML='View Recipe';
         mealcard.appendChild(recipieview);
 
         recipieview.addEventListener('click',()=>{
