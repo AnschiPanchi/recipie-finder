@@ -76,6 +76,10 @@ function recipie(food){
         <h2>${food.strMeal}</h2>
         <h3>Indregients:</h3>
         <ul>${fetchIngredients(food)}</ul>
+        <div>
+            <h3>Instructions:</h3>
+            <p>${food.strInstructions}</p>
+        </div>
 
     `
     recipiepopup.style.display="block";
