@@ -27,7 +27,7 @@ body{
     background-color: red;
     color: white;
     height: 4vh;
-    width: 14vw;
+    width: 5vw;
     border-radius: 2px;
     border-style: none;
 }
@@ -121,6 +121,11 @@ body{
     grid-template-columns: 1fr 1fr;
     padding: 5px;
    }
+
+    .recipieview{
+    width: 14vw;
+    
+}
 
    .mealcard{
     width: 50vw;
