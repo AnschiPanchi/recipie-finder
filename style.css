@@ -101,7 +101,7 @@ body{
 
 .mealcard{
     background-color: white;
-    height: 45vh;
+    height: 48vh;
     width: 20vw;
 }
 
@@ -112,7 +112,7 @@ body{
     margin-top:10px;
 }
 
-@media (max-width:1100px){
+@media (max-width:900px){
    .mealcard img{
     height: 19vh;
     width: 50vw;
